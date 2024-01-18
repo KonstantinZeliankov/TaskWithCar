@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace TaskWithCar
 {
-    public class Car
+    public class CarTable
     {
         public string Vin;
         public string Marka;
         public string Model;
 
-        public Car(string vin, string marka, string model)
+        public CarTable(string vin, string marka, string model)
         {
             Vin = vin;
             Marka = marka;

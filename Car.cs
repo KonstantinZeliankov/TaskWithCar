@@ -12,7 +12,7 @@ namespace TaskWithCar
         public string Marka;
         public string Model;
 
-        public Car(string vin, string marka, string model)
+        public Car(string vin = "Unknown", string marka = "Unknown", string model = "Unknown")
         {
             Vin = vin;
             Marka = marka;
